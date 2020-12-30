@@ -1,0 +1,11 @@
+homepage: "https://parallaxsecond.github.io/parsec-book/"
+main_repo: "https://github.com/parallaxsecond/parsec"
+primary_contact: "ionut.mihalcea@arm.com"
+language: rust
+auto_ccs:
+  - "hugues.devalon@arm.com"
+  - "paul.howard@arm.com"
+fuzzing_engines:
+  - libfuzzer
+sanitizers:
+  - address
